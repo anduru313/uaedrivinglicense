@@ -6,7 +6,7 @@ export const siteConfig = {
   whatsAppDisplay: "+971 56 559 2944",
   contactEmail: "info@uaedrivinglicense.com",
   defaultPhone: "+971 56 559 2944",
-  operatorName: "[Business name placeholder]",
+  operatorName: "uaedrivinglicense.com",
   operatorDescription:
     "This website is an independent information website created for general guidance on UAE driving licence information. It is not an official UAE government service or a licensed driving school unless formal business arrangements are confirmed.",
   socialLinks: {
