@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LockKeyhole, ShieldCheck } from "lucide-react";
+import { LockKeyhole, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { getPageTitle } from "@/lib/site";
 

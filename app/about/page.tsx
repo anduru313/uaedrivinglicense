@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Building2, Info, ShieldCheck } from "lucide-react";
+import { Building2, Info, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, SourceNote, DisclosureBox } from "@/components/page-shell";
 import { getPageTitle, siteConfig } from "@/lib/site";
 

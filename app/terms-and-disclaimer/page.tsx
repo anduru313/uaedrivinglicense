@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { AlertTriangle, ShieldCheck } from "lucide-react";
+import { AlertTriangle, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { getPageTitle } from "@/lib/site";
 

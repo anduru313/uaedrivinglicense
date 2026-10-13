@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MessageCircle, ShieldCheck } from "lucide-react";
+import { Mail, MessageCircle, ShieldCheck } from "@/components/icons";
 import { siteConfig } from "@/lib/site";
 
 export function SiteFooter() {
@@ -23,6 +23,8 @@ export function SiteFooter() {
             <li><Link href="/open-driving-file-dubai/" className="hover:text-white">Open a driving file</Link></li>
             <li><Link href="/dubai-driving-license-cost/" className="hover:text-white">Licence costs</Link></li>
             <li><Link href="/driving-license-requirements-uae/" className="hover:text-white">Requirements</Link></li>
+            <li><Link href="/dubai-driving-license-renewal/" className="hover:text-white">Licence renewal</Link></li>
+            <li><Link href="/international-driving-permit-uae/" className="hover:text-white">International permit</Link></li>
             <li><Link href="/driving-license-faq/" className="hover:text-white">FAQ</Link></li>
           </ul>
         </div>
