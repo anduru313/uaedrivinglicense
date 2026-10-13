@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BadgeCheck, Building2, ClipboardList, FileText, GraduationCap, ShieldCheck } from "lucide-react";
+import { BadgeCheck, Building2, ClipboardList, FileText, GraduationCap, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, SourceNote, DisclosureBox } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Eye, SearchCheck, ShieldCheck, Stethoscope } from "lucide-react";
+import { Eye, SearchCheck, ShieldCheck, Stethoscope } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { HelpCircle, MessageCircleQuestion, ShieldCheck } from "lucide-react";
+import { HelpCircle, MessageCircleQuestion, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";
