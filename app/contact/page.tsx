@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Mail, MessageCircle, ShieldCheck } from "lucide-react";
+import { Mail, MessageCircle, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: getPageTitle("Contact"),
-  description: "Contact the site operator or use WhatsApp for a general driving licence enquiry with a placeholder business configuration until official contact details are confirmed.",
+  description: "-",
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
       <PageIntro
         eyebrow="Contact"
         title="Contact the site"
-        description="Use the WhatsApp CTA for a general enquiry about Dubai or UAE licence information. Replace this placeholder contact information with the operator’s real details before publishing publicly."
+        description="Use the WhatsApp CTA for a general enquiry about Dubai or UAE licence information. The operator contact details are listed below."
       >
         <div className="mt-8">
           <WhatsAppCTA label="Start a WhatsApp enquiry" topic="UAE driving licence information" detail="Hi, I would like general information about the Dubai driving licence process and my next steps." className="px-5 py-3" />

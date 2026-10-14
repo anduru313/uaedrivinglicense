@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AlertTriangle, BadgeDollarSign, CarFront, CircleDollarSign, Gauge, WalletCards } from "lucide-react";
+import { AlertTriangle, BadgeDollarSign, CarFront, CircleDollarSign, Gauge, WalletCards } from "@/components/icons";
 import { PageIntro, Breadcrumbs, DisclosureBox, SourceNote } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";

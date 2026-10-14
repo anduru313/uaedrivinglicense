@@ -8,6 +8,8 @@ const routes = [
   "/driving-license-requirements-uae",
   "/driving-schools-dubai",
   "/foreign-driving-license-exchange-dubai",
+  "/dubai-driving-license-renewal",
+  "/international-driving-permit-uae",
   "/driving-license-eye-test-dubai",
   "/driving-license-faq",
   "/about",

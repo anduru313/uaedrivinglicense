@@ -9,7 +9,7 @@ import {
   Globe2,
   ShieldCheck,
   Stethoscope,
-} from "lucide-react";
+} from "@/components/icons";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 
 const quickLinks = [
@@ -37,6 +37,8 @@ const guideCards = [
   { href: "/driving-schools-dubai/", title: "How to choose a driving school", details: "Compare institute policies, fees, vehicles, and package transparency." },
   { href: "/driving-license-eye-test-dubai/", title: "Eye test guide", details: "Learn the general process and how to find an approved centre." },
   { href: "/foreign-driving-license-exchange-dubai/", title: "Foreign licence exchange", details: "Review the main conditions that affect exchange eligibility." },
+  { href: "/dubai-driving-license-renewal/", title: "Renew your Dubai licence", details: "Prepare for renewal, eye testing, and current RTA service requirements." },
+  { href: "/international-driving-permit-uae/", title: "International driving permit", details: "Learn how to apply for an ATCUAE permit before driving abroad." },
   { href: "/driving-license-faq/", title: "FAQ library", details: "Get answers to the most common questions before you book anything." },
 ];
 
@@ -68,10 +70,10 @@ export default function HomePage() {
 
           <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
-              alt="A car on a road during driving practice"
-              width={900}
-              height={1100}
+              src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80"
+              alt="Dubai skyline at sunset, with the Burj Khalifa and Sheikh Zayed Road"
+              width={1200}
+              height={800}
               className="h-full w-full object-cover"
               priority
             />
