@@ -6,8 +6,8 @@ import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: getPageTitle("Foreign driving licence exchange in Dubai"),
-  description: "Understand the main factors that affect foreign driving licence exchange in Dubai, including eligibility, issuing country rules, and official RTA guidance.",
+  title: getPageTitle("UK and US driving licence exchange in Dubai"),
+  description: "Find out whether a UK or US driving licence can be exchanged in Dubai without a test, what affects eligibility, and how to check the current RTA route.",
 };
 
 export default function ForeignDrivingLicenseExchangePage() {
@@ -51,6 +51,21 @@ export default function ForeignDrivingLicenseExchangePage() {
             </div>
           </div>
         </div>
+
+        <section className="mt-10 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900">Can I exchange a UK or US driving licence without a test?</h2>
+          <p className="mt-4 text-sm leading-7 text-slate-700">
+            You may be eligible for a direct exchange route, but a UK or US licence does not guarantee an automatic, test-free exchange. RTA eligibility depends on the current recognised-country rules and your individual records, including the issuing jurisdiction, licence category and validity, residence status, and any verification or document requirements.
+          </p>
+          <p className="mt-4 text-sm leading-7 text-slate-700">
+            Start an exchange enquiry through the official RTA driver-licensing service and follow the decision shown for your application. If your licence or circumstances do not qualify, ask which standard testing or training route applies before paying for lessons. Do not surrender or rely on a licence until the authority confirms the exchange.
+          </p>
+          <div className="mt-5 rounded-2xl border border-blue-200 bg-blue-50 p-5">
+            <h3 className="font-semibold text-blue-950">Documents to have available</h3>
+            <p className="mt-2 text-sm leading-7 text-slate-700">Prepare your original valid foreign licence, passport and UAE residence/Emirates ID details. RTA may request additional verification, translation, or supporting records according to the current service instructions.</p>
+          </div>
+          <a href="https://www.rta.ae/" target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-blue-800 underline underline-offset-2">Check current RTA licence exchange services</a>
+        </section>
 
         <div className="mt-12 rounded-3xl border border-slate-200 bg-rose-50 p-8">
           <div className="flex items-center gap-3 text-rose-900">

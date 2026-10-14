@@ -6,8 +6,8 @@ import { WhatsAppCTA } from "@/components/whatsapp-cta";
 import { getPageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: getPageTitle("Open a driving file in Dubai"),
-  description: "Learn the general process to open a driving file in Dubai, check eligibility, required documents, eye-test steps, and next actions before you start driving lessons.",
+  title: getPageTitle("How to open a driving file in Dubai online"),
+  description: "Learn how to start opening a Dubai driving file online, what to prepare, what an approved driving institute handles, and which steps may still need attendance.",
 };
 
 const steps = [
@@ -75,6 +75,7 @@ export default function OpenDrivingFileDubaiPage() {
                 </ul>
               </div>
             </div>
+
           </div>
 
           <div className="space-y-6">
@@ -90,6 +91,23 @@ export default function OpenDrivingFileDubaiPage() {
             </div>
           </div>
         </div>
+
+        <section className="mt-10 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900">How to open a driving file in Dubai online</h2>
+          <p className="mt-3 max-w-4xl text-sm leading-7 text-slate-700">
+            You can usually begin by using the RTA digital licensing services or the online enrolment channel of an authorised driving institute. The available application and identity-verification options may change, so follow the current service prompts and confirm the route with your selected institute.
+          </p>
+          <ol className="mt-5 grid gap-4 text-sm leading-7 text-slate-700 md:grid-cols-2">
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">1. Verify your route.</strong> Check your licence category, residence status, and whether you need a first-time file, exchange, or another service.</li>
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">2. Prepare your records.</strong> Have identity, UAE residence, and any existing licence details ready in the format requested by the official portal or institute.</li>
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">3. Apply through the verified channel.</strong> Use the RTA service or the institute’s official online registration, and review the fees and terms before confirming payment.</li>
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">4. Complete remaining steps.</strong> Online registration does not mean every step is remote; eye testing, identity checks, training, and assessments may require an approved centre or in-person attendance.</li>
+          </ol>
+          <div className="mt-6 flex flex-wrap gap-4 text-sm font-semibold text-blue-800">
+            <a href="https://www.rta.ae/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">Open RTA digital services</a>
+            <Link href="/golden-chance-driving-license-dubai/" className="underline underline-offset-2">Golden Chance eligibility and costs</Link>
+          </div>
+        </section>
 
         <div className="mt-12 rounded-3xl border border-slate-200 bg-blue-50 p-8">
           <div className="flex items-center gap-3 text-blue-900">

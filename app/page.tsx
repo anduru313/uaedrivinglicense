@@ -38,6 +38,8 @@ const guideCards = [
   { href: "/driving-license-eye-test-dubai/", title: "Eye test guide", details: "Learn the general process and how to find an approved centre." },
   { href: "/foreign-driving-license-exchange-dubai/", title: "Foreign licence exchange", details: "Review the main conditions that affect exchange eligibility." },
   { href: "/dubai-driving-license-renewal/", title: "Renew your Dubai licence", details: "Prepare for renewal, eye testing, and current RTA service requirements." },
+  { href: "/golden-chance-driving-license-dubai/", title: "Golden Chance test and cost", details: "Understand eligibility and separate RTA test charges from the full provider package." },
+  { href: "/rent-a-car-dubai-requirements/", title: "Rent a car in Dubai", details: "Check resident and visitor documents, licence rules, and rental terms." },
   { href: "/international-driving-permit-uae/", title: "International driving permit", details: "Learn how to apply for an ATCUAE permit before driving abroad." },
   { href: "/driving-license-faq/", title: "FAQ library", details: "Get answers to the most common questions before you book anything." },
 ];

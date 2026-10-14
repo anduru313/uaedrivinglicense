@@ -79,6 +79,7 @@ export default function DubaiDrivingLicenseCostPage() {
           <div className="mt-6 flex flex-wrap gap-3">
             <WhatsAppCTA label="Compare package options" topic="driving licence cost in Dubai" detail="Please walk me through the likely cost categories and what I should ask a driving institute before enrolling." className="px-5 py-3" />
             <Link href="/driving-license-faq/" className="inline-flex items-center rounded-full border border-slate-300 bg-white px-5 py-3 font-semibold text-slate-800 transition-colors hover:bg-slate-100">Read FAQ</Link>
+            <Link href="/golden-chance-driving-license-dubai/" className="inline-flex items-center rounded-full border border-slate-300 bg-white px-5 py-3 font-semibold text-slate-800 transition-colors hover:bg-slate-100">Golden Chance test costs</Link>
           </div>
         </div>
       </div>

@@ -5,8 +5,8 @@ import { Breadcrumbs, DisclosureBox, PageIntro } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
 
 export const metadata: Metadata = {
-  title: "Dubai driving licence renewal",
-  description: "A practical guide to renewing a Dubai driving licence, including eye-test preparation, online steps, documents, fees, and official sources.",
+  title: "RTA Dubai driving licence renewal fees (2026)",
+  description: "Check the cost categories for Dubai driving licence renewal in 2026, what can affect the total, and how to verify the live amount through RTA.",
 };
 
 const steps = [
@@ -69,6 +69,19 @@ export default function DubaiDrivingLicenseRenewalPage() {
             <DisclosureBox />
           </div>
         </div>
+
+        <section className="mt-10 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900">RTA driving licence renewal fees in 2026</h2>
+          <p className="mt-3 text-sm leading-7 text-slate-700">
+            There is not one safe third-party total to quote for every driver. The amount payable is the total shown by RTA for your licence and application at checkout. Review the fee breakdown there, including the renewal charge and any applicable knowledge/innovation, eye-test, delivery, or other service charges. Optional delivery or eye-test charges may be billed separately from the renewal service.
+          </p>
+          <ol className="mt-5 grid gap-4 text-sm leading-7 text-slate-700 md:grid-cols-3">
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">Check your profile:</strong> licence category, age, expiry status, and any account notices can affect the service shown.</li>
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">Separate the extras:</strong> confirm whether the eye test and delivery are included or paid separately.</li>
+            <li className="rounded-2xl bg-slate-50 p-4"><strong className="text-slate-900">Use the live amount:</strong> rely on the RTA application total before payment, not an old fee table or school quote.</li>
+          </ol>
+          <p className="mt-5 text-xs text-slate-500">Checked 14 October 2026. Fees and conditions may change; this guide does not replace the amount shown in your RTA account.</p>
+        </section>
 
         <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-7">
           <h2 className="text-xl font-semibold text-slate-900">Official references</h2>

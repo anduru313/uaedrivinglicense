@@ -24,6 +24,8 @@ export function SiteFooter() {
             <li><Link href="/dubai-driving-license-cost/" className="hover:text-white">Licence costs</Link></li>
             <li><Link href="/driving-license-requirements-uae/" className="hover:text-white">Requirements</Link></li>
             <li><Link href="/dubai-driving-license-renewal/" className="hover:text-white">Licence renewal</Link></li>
+            <li><Link href="/golden-chance-driving-license-dubai/" className="hover:text-white">Golden Chance costs</Link></li>
+            <li><Link href="/rent-a-car-dubai-requirements/" className="hover:text-white">Rent a car in Dubai</Link></li>
             <li><Link href="/international-driving-permit-uae/" className="hover:text-white">International permit</Link></li>
             <li><Link href="/driving-license-faq/" className="hover:text-white">FAQ</Link></li>
           </ul>

@@ -17,6 +17,9 @@ const faqs = [
   { q: "Can I exchange my foreign licence in Dubai?", a: "Exchange eligibility depends on the issuing country, licence class, and current UAE policy. These rules can change and should be checked before booking any confirmatory steps." },
   { q: "How much does a Dubai licence cost?", a: "Costs vary between official authority fees, institute package pricing, and optional extras. A realistic comparison should include the full journey, not just the headline fee." },
   { q: "How do I choose a driving school in Dubai?", a: "Compare transparency, package inclusions, vehicle type, training schedule, and policy terms before committing to a package or signing a contract." },
+  { q: "Can I open a Dubai driving file online?", a: "You can often start through RTA digital licensing services or an approved institute's online enrolment channel. Some checks, eye tests, training, or assessments may still require in-person attendance." },
+  { q: "Can I rent a car in Dubai with my foreign driving licence?", a: "It depends on whether the licence is accepted for driving in the UAE and on the rental company's terms. Some visitors may also need an IDP with their original licence; confirm both before booking." },
+  { q: "What is the Golden Chance driving test cost in Dubai?", a: "The RTA test charge is only one part of the total. Institute services, eye tests, training, and additional test charges can affect the amount; confirm eligibility and a written total before paying." },
 ];
 
 export default function DrivingLicenseFaqPage() {

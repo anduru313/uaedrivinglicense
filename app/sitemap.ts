@@ -9,6 +9,8 @@ const routes = [
   "/driving-schools-dubai",
   "/foreign-driving-license-exchange-dubai",
   "/dubai-driving-license-renewal",
+  "/golden-chance-driving-license-dubai",
+  "/rent-a-car-dubai-requirements",
   "/international-driving-permit-uae",
   "/driving-license-eye-test-dubai",
   "/driving-license-faq",
@@ -21,7 +23,6 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${siteConfig.domain}${route}`,
-    lastModified: new Date(),
     changeFrequency: route === "" ? "weekly" : "monthly",
     priority: route === "" ? 1 : 0.8,
   }));

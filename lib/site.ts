@@ -47,5 +47,5 @@ export function buildWhatsAppLink(topic: string, extra?: string) {
 }
 
 export function getPageTitle(title: string) {
-  return `${title} | ${siteConfig.siteName}`;
+  return title;
 }
