@@ -45,6 +45,20 @@ export default function DubaiDrivingLicenseCostPage() {
           ))}
         </section>
 
+        <section className="mt-10 rounded-3xl border border-blue-200 bg-blue-50 p-7">
+          <h2 className="text-2xl font-bold text-blue-950">Planning estimate for a beginner light-vehicle licence</h2>
+          <p className="mt-3 text-sm leading-7 text-slate-700">
+            An independent EzHire article quotes an estimated <strong>AED 4,500–7,000</strong> for a beginner light-motor-vehicle licence, describing a total that may include lessons, theory, tests, and licence issuance. This is a third-party estimate—not an RTA tariff or a guaranteed package price—and it may not reflect your category, school, current rates, extra lessons, or repeat tests.
+          </p>
+          <p className="mt-3 text-sm leading-7 text-slate-700">
+            Use it only as an initial budgeting reference. Before enrolling, request a dated written quote that separates RTA charges, school tuition, eye-test fees, included lesson hours, and retest or extra-training charges.
+          </p>
+          <a href="https://www.ezhire.ae/blog/dubai-driving-license-2023" target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-sm font-semibold text-blue-800 underline underline-offset-2">
+            Read the independent EzHire driving-licence overview
+          </a>
+          <p className="mt-3 text-xs text-slate-500">Estimate referenced 14 October 2026. Verify current prices with RTA and the chosen approved institute.</p>
+        </section>
+
         <div className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
             <h2 className="text-2xl font-bold text-slate-900">How to compare offers</h2>
@@ -53,6 +67,7 @@ export default function DubaiDrivingLicenseCostPage() {
               <li><strong className="text-slate-900">2.</strong> Ask whether the institute price includes theory access, practical lessons, yard sessions, and test booking support.</li>
               <li><strong className="text-slate-900">3.</strong> Check whether reschedule fees, extra road hours, or vehicle rental costs are listed clearly in writing.</li>
               <li><strong className="text-slate-900">4.</strong> Compare the total cost of the full pathway, not only the headline package price.</li>
+              <li><strong className="text-slate-900">5.</strong> Ask how the provider charges for remedial training and another test attempt if you do not pass.</li>
             </ul>
             <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5">
               <div className="mb-2 flex items-center gap-2 text-base font-semibold text-slate-900"><BadgeDollarSign className="h-5 w-5 text-green-600" aria-hidden="true" /> Transparent pricing checklist</div>

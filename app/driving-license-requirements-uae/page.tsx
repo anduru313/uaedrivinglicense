@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const requirementCards = [
-  { title: "Age and category checks", body: "Minimum age and licence-category rules vary by vehicle type and should be confirmed against the current official RTA requirements for the category you want to apply for.", icon: UserRound },
-  { title: "Residency and identity", body: "Applicants usually need to be able to confirm their legal status and identity through current UAE residence and passport records, depending on the route they take.", icon: IdCard },
-  { title: "Document readiness", body: "Basic document preparation typically includes valid passport details, visa or residence evidence, and any licence documents needed for transfer or exchange routes.", icon: FileCheck },
+  { title: "Age and category checks", body: "For Dubai light-vehicle training, ask whether a file can be opened at 17 years 6 months; licence issue is generally at 18 after passing the required assessments. Other categories have different rules.", icon: UserRound },
+  { title: "Residency and identity", body: "A valid UAE residence status and identity information are normally required for a resident training-file route. Confirm accepted records with RTA or the approved institute.", icon: IdCard },
+  { title: "Document readiness", body: "Prepare your original Emirates ID and approved eye-test result. Additional passport, visa, photo, sponsor NOC, or emirate-specific proof may be requested for your route.", icon: FileCheck },
   { title: "Eye-test requirement", body: "An approved eye-test is often required before training or licence issue. Confirm the latest centre and process with the official channels.", icon: Stethoscope },
 ];
 
@@ -47,6 +47,43 @@ export default function DrivingLicenseRequirementsPage() {
               </div>
             );
           })}
+        </section>
+
+        <section className="mt-10 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900">Choose the correct UAE driving licence category</h2>
+          <p className="mt-3 max-w-4xl text-sm leading-7 text-slate-700">
+            The licence category must match the vehicle you intend to drive. Common categories include light motor vehicles, motorcycles, heavy vehicles, and buses. Training routes, minimum eligibility, and tests are category-specific; verify the current requirements with the authority before applying.
+          </p>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { title: "Light motor vehicle", body: "For eligible private and light-vehicle driving routes." },
+              { title: "Motorcycle", body: "For motorcycle licensing, with its own training and assessment requirements." },
+              { title: "Heavy vehicle", body: "For applicable heavy-vehicle categories and professional driving routes." },
+              { title: "Bus", body: "For bus categories, where passenger and vehicle-class requirements apply." },
+            ].map((item) => (
+              <article key={item.title} className="rounded-2xl bg-slate-50 p-5">
+                <h3 className="font-semibold text-slate-900">{item.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{item.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-10 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900">Documents and NOC checks for a Dubai driving file</h2>
+          <ul className="mt-5 list-disc space-y-3 pl-5 text-sm leading-7 text-slate-700">
+            <li>Bring your original Emirates ID and complete the eye test at an RTA-approved centre. Confirm that the result has reached the relevant traffic file.</li>
+            <li>Keep passport and UAE residence details available; the current application channel may request them even when Emirates ID is used for identity verification.</li>
+            <li>If your residence is in another emirate, ask the Dubai institute whether an employer NOC or proof of a Dubai connection is required in your circumstances. A relevant company branch or tenancy/Ejari contract in your name may be relevant evidence, but document rules can vary; confirm the accepted proof before applying.</li>
+            <li>Do not assume sponsor NOC, photographs, or any single document list applies to every applicant. Follow the live RTA service and chosen institute checklist.</li>
+          </ul>
+          <div className="mt-6 rounded-2xl border border-blue-200 bg-blue-50 p-5">
+            <h3 className="font-semibold text-blue-950">Training age versus licence age</h3>
+            <p className="mt-2 text-sm leading-7 text-slate-700">
+              Some Dubai light-vehicle routes allow applicants to begin the training-file process at 17 years and 6 months, while licence issue is generally at 18 after the required tests. Confirm the age rule for your category and exact application with RTA or an approved institute.
+            </p>
+          </div>
+          <Link href="/open-driving-file-dubai/" className="mt-5 inline-block text-sm font-semibold text-blue-800 underline underline-offset-2">See the full Dubai application and test sequence</Link>
         </section>
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
