@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BadgeCheck, Building2, ClipboardList, FileText, GraduationCap, ShieldCheck } from "@/components/icons";
 import { PageIntro, Breadcrumbs, SourceNote, DisclosureBox } from "@/components/page-shell";
 import { WhatsAppCTA } from "@/components/whatsapp-cta";
-import { getPageTitle, siteConfig } from "@/lib/site";
+import { getPageTitle } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: getPageTitle("How to open a driving file in Dubai online"),
@@ -142,9 +142,6 @@ export default function OpenDrivingFileDubaiPage() {
                 detail="I would like help opening a driving file. Please explain the current steps, eligibility, and fees."
                 className="px-5 py-3 text-sm"
               />
-              <a href={`https://wa.me/${siteConfig.whatsAppNumber}`} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-slate-600 hover:text-slate-900">
-                {siteConfig.whatsAppDisplay}
-              </a>
             </div>
           </div>
           <p className="mt-3 max-w-4xl text-sm leading-7 text-slate-700">
